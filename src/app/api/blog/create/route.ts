@@ -1,32 +1,3 @@
-// import { NextResponse } from 'next/server';
-// import { supabaseAdmin } from '@/lib/supabaseAdmin';
-
-// export async function POST(request: Request) {
-//   try {
-//     const { title, body, image } = await request.json();
-
-//     if (!title || !body) {
-//       return NextResponse.json({ error: 'Title and body are required' }, { status: 400 });
-//     }
-
-//     const { error } = await supabaseAdmin.from('blog_posts').insert({
-//       title,
-//       body,
-//       image: image || null,
-//       created_at: new Date().toISOString(),
-//     });
-
-//     if (error) {
-//       return NextResponse.json({ error: error.message }, { status: 500 });
-//     }
-
-//     return NextResponse.json({ success: true });
-//   } catch (err) {
-//     console.log(err);
-//     return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
-//   }
-// }
-
 import { NextResponse } from 'next/server';
 import { supabaseAdmin } from '@/lib/supabaseAdmin';
 

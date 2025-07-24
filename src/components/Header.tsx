@@ -4,7 +4,10 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
-import { useAuth } from '@/app/layout';
+// import { useAuth } from '@/app/layout';
+import { useAuth } from '@/lib/auth'
+
+
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
