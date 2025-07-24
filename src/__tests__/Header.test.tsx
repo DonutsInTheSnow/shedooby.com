@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import Header from '@/components/Header';
-import { useAuth } from '@/app/layout';
+// import { useAuth } from '@/app/layout';
+import { useAuth } from '@/lib/auth'
 import { vi, Mock } from 'vitest';
 
 interface AuthContextType {
