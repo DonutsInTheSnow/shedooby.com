@@ -1,103 +1,126 @@
-import Image from "next/image";
+// 'use client';
+// import Link from 'next/link';
+// import Image from 'next/image';
+
+// export default function Home() {
+//   return (
+//     <div className="bg-[#d7cdbc] relative"> 
+//        <section className="relative h-screen md:h-screen mt-[70px] sm:mt-0"> 
+//         <Image
+//           src="/images/drill-sergeant-mobile.webp"
+//           alt="Drill Sergeant mobile"
+//           fill
+//           sizes="(max-width: mx-sm) 100vw"
+//           className="object-contain opacity-10 md:block lg:hidden mt-[-170px] md:mt-0 z-[1]"
+//           priority
+//         />
+//         <Image
+//           src="/images/drill-sergeant-tablet.webp"
+//           alt="The Comb Overs performing on tablet"
+//           fill
+//           sizes="(min-width: 768px) 100vw, (max-width: max-md) 100vw"
+//           className="object-contain opacity-10 hidden md:hidden lg:block xl:hidden z-[1]"
+//           priority
+//         />
+//         <Image
+//           src="/images/drill-sergeant-laptop.webp"
+//           alt="The Comb Overs performing on desktop"
+//           fill
+//           sizes="(min-width: 1280px) 100vw"
+//           className="object-contain opacity-10 hidden xl:block z-[1]"
+//           priority
+//         />
+//         <div className="absolute inset-0 text-black flex flex-col mt-[35px] md:mt-[50px] lg:mt-[100px]">
+//           <h1 className="text-[32px] md:text-[60px] mt-8 md:mt-22 italic text-center font-inter" style={{ letterSpacing: 3 }}>SHEDOOBY™</h1>
+//           <h2 className="text-[24px] md:text-[32px] md:font-medium text-center mt-[-10px]">Your Digital Drill Sergeant</h2>
+//           <h3 className="text-[21px] md:text-[24px] font-semibold text-gray-800 mb-4 pr-1 md:p-0 text-right md:text-center mt-[255px] md:mt-[330px]">8-week Mind Camp</h3>
+//           <div className="bg-[#cac0b0] h-[42px] md:h-[76px] mx-2 md:mx-7 z-[0]"></div>
+//           <p className="text-[21px] mt-2 font-medium text-center text-[#a1211f] md:ml-[167px] md:mt-0">—no social media, no alcohol—</p>
+//           <small className="text-[#a1211f] text-center leading-none md:ml-[150px]">** Consult a doctor before lifestyle changes, including if<br/> you have alcohol dependency.</small>
+//         </div>
+//       </section>
+
+//       <div className="md:flex md:justify-center">
+//         <div className="w-full pt-4 md:bottom-15 z-50 bg-[#c9c8a1] text-center text-white md:w-[375px] md:rounded-[10px] md:shadow-[inset_0_0_10px_rgba(0,0,0,0.5)]">
+//           <p className="text-gray-800 text-[18px] font-semibold mb-2">Follow Shedooby™ after Mind Camp</p>
+//           <div className="flex justify-center space-x-7">
+//             <Link href="https://x.com" target="_blank" rel="noopener noreferrer">
+//                 <Image src="/x-icon.png" alt="X" width={30} height={30} />
+//             </Link>
+//             <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+//                 <Image src="/facebook-icon.png" alt="Facebook" width={30} height={30} />
+//             </Link>
+//           </div>
+//         </div>
+//       </div>
+
+//     </div>
+//   );
+// }
+
+
+
+
+'use client';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+    <div className="bg-[#d7cdbc] min-h-screen">
+      <section className="relative h-[calc(100vh-4rem)] md:h-[calc(100vh-4rem)] flex flex-col justify-between">
         <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
+          src="/images/drill-sergeant-mobile.webp"
+          alt="Drill Sergeant mobile"
+          fill
+          sizes="(max-width: 640px) 100vw"
+          className="object-contain opacity-10 md:block lg:hidden z-[1]"
           priority
         />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+        <Image
+          src="/images/drill-sergeant-tablet.webp"
+          alt="The Comb Overs performing on tablet"
+          fill
+          sizes="(min-width: 768px) 100vw, (max-width: 1024px) 100vw"
+          className="object-contain opacity-10 hidden md:hidden lg:block xl:hidden z-[1]"
+          priority
+        />
+        <Image
+          src="/images/drill-sergeant-laptop.webp"
+          alt="The Comb Overs performing on desktop"
+          fill
+          sizes="(min-width: 1280px) 100vw"
+          className="object-contain opacity-10 hidden xl:block z-[1]"
+          priority
+        />
+        <div className="relative text-black flex flex-col items-center mt-36 z-[2]">
+          <h1 className="text-[32px] md:text-[60px] italic text-center font-inter" style={{ letterSpacing: 3 }}>
+            SHEDOOBY™
+          </h1>
+          <h2 className="text-[24px] md:text-[32px] font-semibold text-gray-800 text-center">Your Digital Drill Sergeant</h2>
+          <h3 className="text-[21px] md:text-[24px] font-semibold text-gray-800 text-center mt-32 md:mt-12">
+            8-week Mind Camp
+          </h3>
+          <div className="bg-black w-full max-w-[905px] h-[42px] md:h-[76px] opacity-10"></div>
+          <p className="text-[21px] mt-2 font-medium text-center text-[#a1211f]">—no social media, no alcohol—</p>
+          <small className="text-[#a1211f] text-center leading-tight">
+            ** Consult a doctor before lifestyle changes, including if<br /> you have alcohol dependency.
+          </small>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <div className="absolute bottom-0 md:bottom-6 w-full flex justify-center z-50">
+          <div className="bg-[#c9c8a1] text-center text-white md:w-[375px] md:rounded-[10px] md:shadow-[inset_0_0_10px_rgba(0,0,0,0.5)] p-4">
+            <p className="text-gray-800 text-[18px] font-semibold mb-2">Follow Shedooby™ after Mind Camp</p>
+            <div className="flex justify-center space-x-7">
+              <Link href="https://x.com" target="blank" rel="noopener noreferrer">
+                <Image src="/x-icon.png" alt="X" width={30} height={30} />
+              </Link>
+              <Link href="https://facebook.com" target="blank" rel="noopener noreferrer">
+                <Image src="/facebook-icon.png" alt="Facebook" width={30} height={30} />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

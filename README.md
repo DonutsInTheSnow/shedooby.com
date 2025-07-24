@@ -1,36 +1,14 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# shedooby.com
 
-First, run the development server:
+The official website of all things Shedooby. This is Next.js project 4/10.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Learned the hard way
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Seeing that Jest experience is often cited by employers, I attempted to integrate Jest into my first 4 Next.js projects. Mistake! Since Next.js has updated, Jest no longer plays well. In fact, it's more time consuming attempting to configure Jest than it is to build and deploy the rest of the app. Vitest is the way to go. In about an hour I was able to get 4 tests to pass. Compare that with agonizing days the Jest way. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Why Shedooby?
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+If you've got a habit, a bad habit, that you've been wanting to jettison. Shedooby is your 8-week mind camp to help you take out the garbage. What's your vice? Alcohol, tabacco, marijuana, gambling, porn, eating too much? Shedooby challenges you to avoid that problemmatic vice while staying off social media for 56 days. Build discipline with your Digital Drill Sergeant. Re-invent yourself. Don't wait! Now's the time. Shedooby!
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
