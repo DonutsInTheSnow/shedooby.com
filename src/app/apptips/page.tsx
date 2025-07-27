@@ -68,7 +68,7 @@ export default function Apptips() {
             <p className="pb-3">Ambitious goal? Break it into targets. Stack victories. You want to master the guitar? 10,000 hours. That&apos;s not a sprint. That&apos;s a campaign. Your day&apos;s only 24 hours. Your training time must be intentional.</p>
             <p className="pb-3">I practice guitar one hour a day. That&apos;s 365 hours a year, if I stay sharp. That&apos;s how progress looks: daily, deliberate, and compounding. It&apos;s not fast. It&apos;s not flashy. But it works.</p>
             <p className="pb-3">Guitar&apos;s my second mission. The primary one is earning a living. Manual labor pays today&apos;s bills. Programming is my longer-range goal.</p>
-            <p className="p-3 bg-gray-100 text-[#a1211f] font-mono">You have two tasks: practice guitar for 1 hour, program for 2. <span className="text-black text-medium">(Manual labor doesn&apos;t exhaust my mind. It&apos;s almost relaxing to take a seat and code for a couple of hours.)</span></p>
+            <p className="p-3 bg-gray-100 text-[#a1211f] font-mono">You have two tasks: practice guitar for 1 hour, program for 2. <span className="text-black text-medium">(Manual labor doesn&apos;t exhaust my mind. It&apos;s almost relaxing to take a seat and code for a couple of hours after work each day.)</span></p>
           </div>
         </div>
       </section>
