@@ -16,7 +16,7 @@ export default function Home() {
         />
         <Image
           src="/images/drill-sergeant-tablet.webp"
-          alt="The Comb Overs performing on tablet"
+          alt="Drill Sergeant tablet"
           fill
           sizes="(min-width: 768px) 100vw, (max-width: 1024px) 100vw"
           className="object-contain opacity-10 hidden md:hidden lg:block xl:hidden z-[1]"
@@ -24,17 +24,23 @@ export default function Home() {
         />
         <Image
           src="/images/drill-sergeant-laptop.webp"
-          alt="The Comb Overs performing on desktop"
+          alt="Drill Sergeant desktop"
           fill
           sizes="(min-width: 1280px) 100vw"
           className="object-contain opacity-10 hidden xl:block z-[1]"
           priority
         />
-        <div className="relative text-black flex flex-col items-center mt-36 z-[2]">
+        <div className="relative text-black flex flex-col items-center mt-20 z-[2]">
           <h1 className="text-[32px] md:text-[60px] italic text-center font-inter" style={{ letterSpacing: 3 }}>
             SHEDOOBY™
           </h1>
           <h2 className="text-[24px] md:text-[32px] font-semibold text-gray-800 text-center">Your Digital Drill Sergeant</h2>
+          <Link
+            href="https://testflight.apple.com/join/your-code"
+            className="mt-8 bg-[#a1211f] text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-md hover:bg-[#861a19] transition"
+          >
+            Join the Beta on TestFlight
+          </Link>
           <h3 className="text-[21px] md:text-[24px] font-semibold text-gray-800 text-center mt-32 md:mt-12">
             8-week Mind Camp
           </h3>
