@@ -28,10 +28,12 @@ export async function POST(req: NextRequest) {
       line_items: lineItems,
       mode: "payment",
       success_url: process.env.NODE_ENV === "production"
-        ? "https://shedooby.vercel.app/success"
+        // ? "https://shedooby.vercel.app/success"
+        ? "https://shedooby.com/success"
         : "http://localhost:3000/success",
       cancel_url: process.env.NODE_ENV === "production"
-        ? "https://shedooby.vercel.app/merch"
+        // ? "https://shedooby.vercel.app/merch"
+        ? "https://shedooby.com/merch"
         : "http://localhost:3000/merch",
     });
     console.log("Stripe session created:", session);
