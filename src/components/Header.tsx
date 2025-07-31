@@ -6,8 +6,6 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { useAuth } from '@/lib/auth'
 
-
-
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { user } = useAuth();
@@ -43,6 +41,7 @@ export default function Header() {
           <Link href="/about" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">About</Link>
           <Link href="/apptips" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">App Tips</Link>
           <Link href="/blog" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Blog</Link>
+          <Link href="/privacypolicy" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Privacy</Link>
           {/* Uncomment cart and merch when ready to launch store */}
           {/* <Link href="/cart" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Cart</Link>
           <Link href="/merch" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Merch</Link> */}
@@ -66,6 +65,9 @@ export default function Header() {
             </Link>
             <Link href="/blog" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
               Blog
+            </Link>
+            <Link href="/privacypolicy" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
+              Privacy
             </Link>
             {/* <Link href="/cart" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
               Cart
