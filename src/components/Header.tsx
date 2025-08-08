@@ -39,9 +39,10 @@ export default function Header() {
         {/* Desktop Menu */}
         <div className="hidden sm:flex space-x-10">
           <Link href="/about" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">About</Link>
-          <Link href="/apptips" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">App Tips</Link>
           <Link href="/blog" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Blog</Link>
+          <Link href="/lashtips" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Lash Tips</Link>
           <Link href="/privacypolicy" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Privacy</Link>
+          <Link href="/support" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Support</Link>
           {/* Uncomment cart and merch when ready to launch store */}
           {/* <Link href="/cart" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Cart</Link>
           <Link href="/merch" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Merch</Link> */}
@@ -60,14 +61,17 @@ export default function Header() {
             <Link href="/about" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
               About
             </Link>
-            <Link href="/apptips" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
-              App Tips
-            </Link>
             <Link href="/blog" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
               Blog
             </Link>
+            <Link href="/lashtips" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
+              Lash Tips
+            </Link>
             <Link href="/privacypolicy" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
               Privacy
+            </Link>
+            <Link href="/support" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
+              Support
             </Link>
             {/* <Link href="/cart" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
               Cart

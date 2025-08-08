@@ -2,12 +2,12 @@
 
 import Image from 'next/image';
 
-export default function Apptips() {
+export default function Lashtips() {
   return (
     <div className="bg-[#d7cdbc]"> 
 
        <section className="pt-[120px] pb-32 max-w-[1050px] md:max-w-[500px] lg:max-w-[1050px] mx-auto"> 
-        <h2 className="font-inter text-[16px] font-semibold text-black text-center pb-4">App Tips</h2>
+        <h2 className="font-inter text-[16px] font-semibold text-black text-center pb-4">Lash Tips</h2>
         <div className="bg-[#cac0b0] h-[42px] mx-4"></div>
         <div className="grid grid-cols-6 gap-4 lg:gap-12 text-black p-4 font-inter">
             <div className="col-span-6 lg:col-span-2 text-[18px] font-medium">
@@ -59,6 +59,7 @@ export default function Apptips() {
               <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Be punctual. Punctuality respects others time. <span className="text-black text-medium">(Make it a habit. You won&apos;t regret it.)</span></p>
               <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Lose the self-doubt, Marshmallow. Try and fail, no shame. Fail to try, no game. Get in the game. <span className="text-black text-medium">(Playing the game is a better teacher than being a spectator.)</span></p>
               <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Passivity now leads to aggression later. Don&apos;t be passive. Say what you honestly think. Be assertive. <span className="text-black text-medium">(Telling others what they want to hear is neither kind nor compassionate. It&apos;s deceitful. Learning to deliver honesty with diplomacy takes practice.)</span></p>
+              <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Name three things you accomplished today. <span className="text-black text-medium">(The tortoise and the hare story. Genuine progress is slow and steady, hour by hour, day by day.)</span></p>
             </div>
           </div>
         </div>
@@ -68,7 +69,7 @@ export default function Apptips() {
             <p className="pb-3">Ambitious goal? Break it into targets. Stack victories. You want to master the guitar? 10,000 hours. That&apos;s not a sprint. That&apos;s a campaign. Your day&apos;s only 24 hours. Your training time must be intentional.</p>
             <p className="pb-3">I practice guitar one hour a day. That&apos;s 365 hours a year, if I stay sharp. That&apos;s how progress looks: daily, deliberate, and compounding. It&apos;s not fast. It&apos;s not flashy. But it works.</p>
             <p className="pb-3">Guitar&apos;s my second mission. The primary one is earning a living. Manual labor pays today&apos;s bills. Programming is my longer-range goal.</p>
-            <p className="p-3 bg-gray-100 text-[#a1211f] font-mono">You have two tasks: practice guitar for 1 hour, program for 2. <span className="text-black text-medium">(Manual labor doesn&apos;t exhaust my mind. It&apos;s almost relaxing to take a seat and code for a couple of hours after work each day.)</span></p>
+            <p className="p-3 bg-gray-100 text-[#a1211f] font-mono">You have two tasks: practice guitar for 1 hour, program for 2. <span className="text-black text-medium">(Manual labor is physically tiring, but not mentally.)</span></p>
           </div>
         </div>
       </section>
