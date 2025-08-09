@@ -6,29 +6,21 @@ export default function Lashtips() {
   return (
     <div className="bg-[#d7cdbc]"> 
 
-       <section className="pt-[120px] pb-32 max-w-[1050px] md:max-w-[500px] lg:max-w-[1050px] mx-auto"> 
+       <section className="pt-[120px] pb-14 max-w-[1050px] md:max-w-[500px] lg:max-w-[1050px] mx-auto"> 
         <h2 className="font-inter text-[16px] font-semibold text-black text-center pb-4">Lash Tips</h2>
         <div className="bg-[#cac0b0] h-[42px] mx-4"></div>
         <div className="grid grid-cols-6 gap-4 lg:gap-12 text-black p-4 font-inter">
-            <div className="col-span-6 lg:col-span-2 text-[18px] font-medium">
-              <p className="text-[14px] font-semibold text-center pb-4">Troubleshooting Siri</p>
-              <p className="pb-3">• Check your device&apos;s volume. Make sure it&apos;s turned up.</p>
-              <p className="pb-3">• Create a Lash and activate it. Then put your device in sleep mode and say, “Siri Shedooby.”</p>
-              <p className="pb-3">• Delete the Shedooby Shortcut from your Shortcuts App. Then follow the instructions to add it again. Be sure when you add the Shedooby Shortcut you&apos;re not selecting the shortcut called <em>Log Shedooby</em>.</p>
-              <p>• Your device must be in sleep mode (screen black) in order to use Shedooby with Siri. While driving, for example, you may have to repeat “Siri Shedooby” more than once if Siri doesn&apos;t hear you the first time.</p>
-            </div>
-            <div className="bg-[#cac0b0] h-[42px] col-span-6 lg:hidden"></div>
-            <div className="col-span-6 lg:col-span-4 font-semibold text-[19px]">
-              <p className="text-[14px] text-center pb-4">Lash Protocol</p>
-              <p className="pb-3">Your lash is a five-second strike. Make it count. 20 words or less. Don&apos;t wimp out. Maximum impact. You&apos;ll see it or hear it every time you slip into mind chatter. That&apos;s the point. It&apos;s a jolt. A snap back to now.</p>
-              <p className="pb-3">Start with a trigger. A personal pain point. Something you never want to become.</p>
-              <p className="pb-3">Mine? I&apos;ve got several: “Hey Lennon, Taylor Swift, Marshmallow, ShooShoo, ...McFly.”</p>
-              <p className="pb-3">Gen X knows that reference. I used to see a future full of promise. Now I fight to avoid ending up soft and aimless. “Hey McFly” stops me cold. It&apos;s sharp. It&apos;s private. It works.</p>
-              <p className="pb-3">Your lash follows that trigger. A command. A task. A truth. Tweak it for the day. Adjust it to your mission. If you&apos;re ducking a hard conversation, write a lash that forces your mouth to move. If you&apos;re procrastinating on a problem, make the lash push you to engage.</p>
-              <p className="p-3 bg-gray-100 text-[#a1211f] font-mono">You can cry like ShooShoo or you can do a round of weights and 100 count leg lifts.</p>
-              <p className="py-3">ShooShoo was my great grandmother, who cried through life, helpless and numbed by drink. You can cry through sorrow or you can sweat through sorrow. Choose the latter. </p>
-              <p>Still angry? Good. Use it. Anger is rocket fuel. Screenshot the insult. Use their words for your lash. If it stings, it&apos;s got power. Aim it at your weakness. Fire for effect.</p>
-            </div>
+          <div className="col-span-12 font-semibold text-[19px]">
+            <p className="text-[14px] text-center pb-4">Lash Protocol</p>
+            <p className="pb-3">Your lash is a five-second strike. Make it count. 20 words or less. Don&apos;t wimp out. Maximum impact. You&apos;ll see it or hear it every time you slip into mind chatter. That&apos;s the point. It&apos;s a jolt. A snap back to now.</p>
+            <p className="pb-3">Start with a trigger. A personal pain point. Something you never want to become.</p>
+            <p className="pb-3">Mine? I&apos;ve got several: “Hey Lennon, Taylor Swift, Marshmallow, ShooShoo, ...McFly.”</p>
+            <p className="pb-3">Gen X knows that reference. I used to see a future full of promise. Now I fight to avoid ending up soft and aimless. “Hey McFly” stops me cold. It&apos;s sharp. It&apos;s private. It works.</p>
+            <p className="pb-3">Your lash follows that trigger. A command. A task. A truth. Tweak it for the day. Adjust it to your mission. If you&apos;re ducking a hard conversation, write a lash that forces your mouth to move. If you&apos;re procrastinating on a problem, make the lash push you to engage.</p>
+            <p className="p-3 bg-gray-100 text-[#a1211f] font-mono">You can cry like ShooShoo or you can do a round of weights and 100 count leg lifts.</p>
+            <p className="py-3">ShooShoo was my great grandmother, who cried through life, helpless and numbed by drink. You can cry through sorrow or you can sweat through sorrow. Choose the latter. </p>
+            <p>Still angry? Good. Use it. Anger is rocket fuel. Screenshot the insult. Use their words for your lash. If it stings, it&apos;s got power. Aim it at your weakness. Fire for effect.</p>
+          </div>
         </div>
       </section>
 
@@ -69,7 +61,7 @@ export default function Lashtips() {
             <p className="pb-3">Ambitious goal? Break it into targets. Stack victories. You want to master the guitar? 10,000 hours. That&apos;s not a sprint. That&apos;s a campaign. Your day&apos;s only 24 hours. Your training time must be intentional.</p>
             <p className="pb-3">I practice guitar one hour a day. That&apos;s 365 hours a year, if I stay sharp. That&apos;s how progress looks: daily, deliberate, and compounding. It&apos;s not fast. It&apos;s not flashy. But it works.</p>
             <p className="pb-3">Guitar&apos;s my second mission. The primary one is earning a living. Manual labor pays today&apos;s bills. Programming is my longer-range goal.</p>
-            <p className="p-3 bg-gray-100 text-[#a1211f] font-mono">You have two tasks: practice guitar for 1 hour, program for 2. <span className="text-black text-medium">(Manual labor is physically tiring, but not mentally.)</span></p>
+            <p className="p-3 bg-gray-100 text-[#a1211f] font-mono">You have two tasks: practice guitar for 1 hour, program for 2.</p>
           </div>
         </div>
       </section>
