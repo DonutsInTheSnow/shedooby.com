@@ -101,7 +101,7 @@ export default function BlogPost({ params }: { params: Promise<{ id: string }> }
           <div className="flex space-x-4">
             <Link
               href={`https://x.com/share?url=${encodeURIComponent(
-                `http://localhost:3000/blog/${blog.id}`
+                `https://shedooby.com/blog/${blog.id}`
               )}&text=${encodeURIComponent(blog.title)}`}
               target="_blank"
               rel="noopener noreferrer"
@@ -110,7 +110,7 @@ export default function BlogPost({ params }: { params: Promise<{ id: string }> }
             </Link>
             <Link
               href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
-                `http://localhost:3000/blog/${blog.id}`
+                `https://shedooby.com/blog/${blog.id}`
               )}`}
               target="_blank"
               rel="noopener noreferrer"
