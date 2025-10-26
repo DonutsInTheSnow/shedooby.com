@@ -108,15 +108,6 @@ export default function BlogPost({ params }: { params: Promise<{ id: string }> }
             >
               <Image src="/x-icon.png" alt="X" width={30} height={30} />
             </Link>
-            <Link
-              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
-                `https://shedooby.com/blog/${blog.id}`
-              )}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image src="/facebook-icon.png" alt="Facebook" width={30} height={30} />
-            </Link>
           </div>
         </div>
       </div>
