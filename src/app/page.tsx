@@ -54,11 +54,8 @@ export default function Home() {
           <div className="bg-[#c9c8a1] text-center text-white md:w-[375px] md:rounded-[10px] md:shadow-[inset_0_0_10px_rgba(0,0,0,0.5)] p-4">
             <p className="text-gray-800 text-[18px] font-semibold mb-2">Follow Shedooby™ after Mind Camp</p>
             <div className="flex justify-center space-x-7">
-              <Link href="https://x.com" target="blank" rel="noopener noreferrer">
+              <Link href="https://x.com/ShedoobyApp" target="blank" rel="noopener noreferrer">
                 <Image src="/x-icon.png" alt="X" width={30} height={30} />
-              </Link>
-              <Link href="https://facebook.com" target="blank" rel="noopener noreferrer">
-                <Image src="/facebook-icon.png" alt="Facebook" width={30} height={30} />
               </Link>
             </div>
           </div>
