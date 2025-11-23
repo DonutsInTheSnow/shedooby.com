@@ -5,6 +5,7 @@ export async function POST(request: Request) {
   try {
     const formData = await request.formData();
     const title = formData.get('title') as string;
+    const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
     const body = formData.get('body') as string;
     const image = formData.get('image') as File | null;
 
@@ -26,6 +27,7 @@ export async function POST(request: Request) {
 
     const { error } = await supabaseAdmin.from('blog_posts').insert({
       title,
+      slug: slug,
       body,
       image: imagePath,
       created_at: new Date().toISOString(),

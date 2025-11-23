@@ -9,6 +9,7 @@ import DOMPurify from 'dompurify';
 
 interface Blog {
   id: string;
+  slug: string;
   title: string;
   body: string;
   image: string | null; // Image is nullable in Supabase
@@ -68,7 +69,7 @@ export default function Blog() {
               <small className="text-black">{new Date(blog.created_at).toLocaleDateString()}</small>
               <div className="mt-4">
                 <Link
-                  href={`/blog/${blog.id}`}
+                  href={`/blog/${blog.slug}`}
                   className="bg-[#24572b] text-white px-4 py-2 rounded hover:bg-black"
                 >
                   Read Post

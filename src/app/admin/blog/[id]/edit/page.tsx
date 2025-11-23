@@ -140,7 +140,7 @@ export default function EditBlogPost({ params }: { params: Promise<{ id: string 
             <input
               id="image"
               type="file"
-              accept=".webp"
+              accept=".webp,.mp4,video/mp4"
               onChange={(e) => setImage(e.target.files?.[0] || null)}
               className="w-full border rounded p-2 text-amber-700"
             />

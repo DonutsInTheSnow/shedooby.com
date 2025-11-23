@@ -11,17 +11,18 @@ import DOMPurify from 'dompurify';
 
 interface Blog {
   id: string;
+  slug: string;
   title: string;
   body: string;
   image: string | null;
   created_at: string;
 }
 
-export default function BlogPost({ params }: { params: Promise<{ id: string }> }) {
+export default function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
   const [blog, setBlog] = useState<Blog | null>(null);
   const [loading, setLoading] = useState(true);
   const router = useRouter();
-  const { id } = use(params);
+  const { slug } = use(params);
   const [isAdmin, setIsAdmin] = useState(false);
 
   useEffect(() => {
@@ -29,7 +30,7 @@ export default function BlogPost({ params }: { params: Promise<{ id: string }> }
       const { data, error } = await supabase
         .from('blog_posts')
         .select('*')
-        .eq('id', id)
+        .eq('slug', slug)
         .single();
 
       if (error) {
@@ -48,7 +49,7 @@ export default function BlogPost({ params }: { params: Promise<{ id: string }> }
 
     fetchBlogPost();
     checkAuth();
-  }, [id, router]);
+  }, [slug, router]);
 
   if (loading) {
     return <div className="min-h-screen bg-[#d7cdbc] pt-[120px] px-2 text-center">Loading...</div>;
@@ -62,15 +63,6 @@ export default function BlogPost({ params }: { params: Promise<{ id: string }> }
     <div className="min-h-screen bg-[#d7cdbc] pt-[120px] pb-[150px] px-2">
       <div className="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-md">
         <h1 className="text-2xl font-semibold text-gray-800 mb-4">{blog.title}</h1>
-        {/* {blog.image && (
-          <Image
-            src={blog.image}
-            alt={blog.title}
-            width={1024}
-            height={768}
-            className="w-full object-cover rounded mb-4"
-          />
-        )} */}
         {blog.image && (
           blog.image.endsWith('.mp4') ? (
             <video
@@ -121,7 +113,7 @@ export default function BlogPost({ params }: { params: Promise<{ id: string }> }
           <div className="flex space-x-4">
             <Link
               href={`https://x.com/share?url=${encodeURIComponent(
-                `https://shedooby.com/blog/${blog.id}`
+                `https://shedooby.com/blog/${blog.slug}`
               )}&text=${encodeURIComponent(blog.title)}`}
               target="_blank"
               rel="noopener noreferrer"
