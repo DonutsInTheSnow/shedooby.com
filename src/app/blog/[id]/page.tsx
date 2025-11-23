@@ -62,7 +62,7 @@ export default function BlogPost({ params }: { params: Promise<{ id: string }> }
     <div className="min-h-screen bg-[#d7cdbc] pt-[120px] pb-[150px] px-2">
       <div className="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-md">
         <h1 className="text-2xl font-semibold text-gray-800 mb-4">{blog.title}</h1>
-        {blog.image && (
+        {/* {blog.image && (
           <Image
             src={blog.image}
             alt={blog.title}
@@ -70,6 +70,26 @@ export default function BlogPost({ params }: { params: Promise<{ id: string }> }
             height={768}
             className="w-full object-cover rounded mb-4"
           />
+        )} */}
+        {blog.image && (
+          blog.image.endsWith('.mp4') ? (
+            <video
+              src={blog.image}
+              className="w-full object-cover rounded mb-4"
+              autoPlay
+              loop
+              muted
+              playsInline
+            />
+          ) : (
+            <Image
+              src={blog.image}
+              alt={blog.title}
+              width={1024}
+              height={768}
+              className="w-full object-cover rounded mb-4"
+            />
+          )
         )}
         <div
           className="text-gray-800 mb-4 font-inter [&_h1]:text-3xl [&_h2]:text-2xl [&_h3]:text-xl [&_p]:my-4 [&_p]:text-[20px]"
@@ -114,3 +134,6 @@ export default function BlogPost({ params }: { params: Promise<{ id: string }> }
     </div>
   );
 }
+
+
+

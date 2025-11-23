@@ -87,11 +87,11 @@ export default function NewBlogPost() {
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="image" className="block text-gray-800 mb-2">Image (optional, .webp)</label>
+            <label htmlFor="image" className="block text-gray-800 mb-2">Image or Video (optional, .webp / .mp4)</label>
             <input
               id="image"
               type="file"
-              accept=".webp"
+              accept=".webp,.mp4,video/mp4"
               onChange={(e) => setImage(e.target.files?.[0] || null)}
               className="w-full border rounded p-2 text-amber-800"
             />

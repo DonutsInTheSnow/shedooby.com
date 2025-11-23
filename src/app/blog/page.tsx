@@ -38,18 +38,27 @@ export default function Blog() {
           blog.map((blog) => (
             <div key={blog.id} className="bg-white p-4 rounded-lg shadow-md text-center">
               {blog.image ? (
-                <Image
-                  src={blog.image}
-                  alt={blog.title}
-                  width={300}
-                  height={300}
-                  className="w-full aspect-square object-cover rounded"
-                />
+                blog.image.endsWith('.mp4') ? (
+                  <video
+                    src={blog.image}
+                    className="w-full aspect-square object-cover rounded"
+                    muted
+                    loop
+                    playsInline
+                  />
+                ) : (
+                  <Image
+                    src={blog.image}
+                    alt={blog.title}
+                    width={300}
+                    height={300}
+                    className="w-full aspect-square object-cover rounded"
+                  />
+                )
               ) : (
                 <div className="w-full aspect-square bg-gray-200 rounded" />
               )}
               <h2 className="text-xl font-semibold text-gray-800 mt-2">{blog.title}</h2>
-              {/* <p className="text-gray-800">{blog.body.slice(0, 30)}...</p> */}
               <div
                 className="text-gray-800 text-left"
                 dangerouslySetInnerHTML={{
