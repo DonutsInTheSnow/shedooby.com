@@ -10,11 +10,13 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@sanity/image-url": "^2.0.3",
     "@supabase/supabase-js": "^2.50.3",
     "autoprefixer": "^10.4.21",
     "dompurify": "^3.2.6",
     "marked": "^16.0.0",
     "next": "^16.0.7",
+    "next-sanity": "^12.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "stripe": "^18.3.0"

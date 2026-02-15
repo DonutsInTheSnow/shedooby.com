@@ -40,6 +40,7 @@ export default function Header() {
         <div className="hidden sm:flex space-x-10">
           <Link href="/about" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">About</Link>
           <Link href="/blog" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Blog</Link>
+          <Link href="/setgoals" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Goals</Link>
           <Link href="/lashtips" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Lash Tips</Link>
           <Link href="/privacypolicy" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Privacy</Link>
           <Link href="/support" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Support</Link>
@@ -64,6 +65,9 @@ export default function Header() {
             <Link href="/blog" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
               Blog
             </Link>
+            <Link href="/setgoals" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
+              Goals
+            </Link>
             <Link href="/lashtips" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
               Lash Tips
             </Link>
@@ -79,24 +83,6 @@ export default function Header() {
             <Link href="/merch" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
               Merch
             </Link> */}
-            {user?.id === 'a7560fa4-39cc-4564-a04c-e894f9ee33bd' && (
-              <>
-                <Link
-                  href="/admin/blog/new"
-                  onClick={toggleMenu}
-                  className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1"
-                >
-                  Create Post
-                </Link>
-                <Link
-                  href="/admin/logout"
-                  onClick={toggleMenu}
-                  className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1"
-                >
-                  Logout
-                </Link>
-              </>
-            )}
           </div>
         </div>
       )}
