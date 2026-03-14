@@ -4,11 +4,9 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
-import { useAuth } from '@/lib/auth'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { user } = useAuth();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -44,15 +42,6 @@ export default function Header() {
           <Link href="/lashtips" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Lash Tips</Link>
           <Link href="/privacypolicy" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Privacy</Link>
           <Link href="/support" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Support</Link>
-          {/* Uncomment cart and merch when ready to launch store */}
-          {/* <Link href="/cart" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Cart</Link>
-          <Link href="/merch" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Merch</Link> */}
-          {user?.id === 'a7560fa4-39cc-4564-a04c-e894f9ee33bd' && (
-            <>
-              <Link href="/admin/blog/new" className="hover:underline text-base">Create Post</Link>
-              <Link href="/admin/logout" className="hover:underline text-base">Logout</Link>
-            </>
-          )}
         </div>
       </nav>
 
@@ -77,12 +66,6 @@ export default function Header() {
             <Link href="/support" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
               Support
             </Link>
-            {/* <Link href="/cart" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
-              Cart
-            </Link>
-            <Link href="/merch" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
-              Merch
-            </Link> */}
           </div>
         </div>
       )}

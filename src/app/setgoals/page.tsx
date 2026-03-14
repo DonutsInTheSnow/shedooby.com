@@ -26,7 +26,7 @@ export default function Lashtips() {
           <div className="col-span-6 lg:col-span-3 text-[19px] font-medium">
             <p className="pb-3"><strong>Goal 1 –</strong> <em>Name:</em> Get 2 new clients and build a Shopify app. <em>Practice:</em> 60 min client search + programming per day. <em>Reward:</em> New desk chair.</p>
             <p className="pb-3"><strong>Goal 2 –</strong> <em>Name:</em> Do an Open Mic. <em>Practice:</em> 60 min per day in front of a mirror and self-video. <em>Reward:</em> New guitar strings and pics.</p>
-            <p className="pb-3"><strong>Goal 3 –</strong> <em>Name:</em> Let&apos;s Get Physical. <em>Practice:</em> Elliptical/Yoga and Pushups/Weights, Situps/Leg Lifts. Alternating days. <em>Reward:</em> New wristband for your watch or new clothes.</p>
+            <p className="pb-3"><strong>Goal 3 –</strong> <em>Name:</em> Let&apos;s Get Physical. <em>Practice:</em> Elliptical/Yoga and Pushups/Weights, Situps/Leg Lifts. Alternating days. <em>Reward:</em> New wristband for your watch, new clothes or a set of weights.</p>
           </div>
           <div className="bg-[#cac0b0] h-[42px] col-span-6 lg:hidden"></div>
           <div className="col-span-6 lg:col-span-3 font-semibold text-[19px]">
