@@ -32,7 +32,7 @@ export default function Lashtips() {
           <div className="col-span-6 lg:col-span-3 font-semibold text-[19px]">
             <div className="bg-[#c1bba9] max-w-[500px] px-3 pt-3 pb-9">
               <div className="py-9">
-                <Image src="/images/letsGetPhysical.webp" alt="Olivia Newton John getting physical." className="mx-auto" width="300" height="300" />
+                <Image src="/images/letsGetPhysical.webp" alt="Drill sergeant getting physical with new recruites." className="mx-auto" width="1024" height="1024" />
               </div>
             </div>
           </div>

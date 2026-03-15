@@ -44,7 +44,7 @@ export default function Lashtips() {
           <div className="col-span-6 lg:col-span-3 font-semibold text-[19px]">
             <div className="bg-[#c1bba9] max-w-[500px] px-3 pt-3 pb-9">
               <div className="py-9">
-                <Image src="/images/cryBully.jpg" alt="Cry bullying is still bullying." className="mx-auto" width="300" height="300" />
+                <Image src="/images/cryBully.webp" alt="Taylor RichHudson Swift cry bullying." className="mx-auto" width="300" height="300" />
               </div>
               <p className="p-3 bg-gray-100 text-[#a1211f] font-mono">You can cry like Taylor Swift or you can drop and give me 50 pushups. <span className="text-black text-medium">(Depression.)</span></p>
               <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Take 10 tactical breaths. Do a round of yoga. Read 10 pages. Repeat. <span className="text-black text-medium">(Anxiety.)</span></p>
