@@ -7,7 +7,7 @@ export default function Lashtips() {
     <div className="bg-[#d7cdbc]"> 
 
        <section className="pt-[120px] pb-14 max-w-[1050px] md:max-w-[500px] lg:max-w-[1050px] mx-auto"> 
-        <h2 className="font-inter text-[16px] font-semibold text-black text-center pb-4">Set Goals</h2>
+        <h2 className="font-inter text-[16px] font-semibold text-black text-center pb-4">Mission Goals</h2>
         <div className="bg-[#cac0b0] h-[42px] mx-4"></div>
         <div className="grid grid-cols-6 gap-4 lg:gap-12 text-black p-4 font-inter">
           <div className="col-span-12 font-semibold text-[19px]">
@@ -24,9 +24,10 @@ export default function Lashtips() {
         <p className="text-[14px] text-center text-black font-semibold py-4">Mission Brief: 8-Week Goals</p>
         <div className="grid grid-cols-6 gap-4 lg:gap-12 text-black p-4 font-inter">
           <div className="col-span-6 lg:col-span-3 text-[19px] font-medium">
-            <p className="pb-3"><strong>Goal 1 –</strong> <em>Name:</em> Get 2 new clients and build a Shopify app. <em>Practice:</em> 60 min client search + programming per day. <em>Reward:</em> New desk chair.</p>
-            <p className="pb-3"><strong>Goal 2 –</strong> <em>Name:</em> Do an Open Mic. <em>Practice:</em> 60 min per day in front of a mirror and self-video. <em>Reward:</em> New guitar strings and pics.</p>
-            <p className="pb-3"><strong>Goal 3 –</strong> <em>Name:</em> Let&apos;s Get Physical. <em>Practice:</em> Elliptical/Yoga and Pushups/Weights, Situps/Leg Lifts. Alternating days. <em>Reward:</em> New wristband for your watch, new clothes or a set of weights.</p>
+            <p className="pb-3"><strong>Goal 1 –</strong> <em>Name:</em> Get 2 new clients and build a Shopify app. <em>Practice:</em> 60 min client search + digging into Shopify. <em>Reward:</em> New desk chair.</p>
+            <p className="pb-3"><strong>Goal 2 –</strong> <em>Name:</em> Do an Open Mic. <em>Practice:</em> 30 min guitar in front of a mirror + 30 min guitar lessons. <em>Reward:</em> New acoustic pickup.</p>
+            <p className="pb-3"><strong>Goal 3 –</strong> <em>Name:</em> Let&apos;s Get Physical. <em>Practice:</em> Alternating days: Crosstrainer/Yoga, Pushups/Weights, Situps/Leg Lifts. <em>Reward:</em> New watchband, new clothes that fit, or a set of weights.</p>
+            <p className="pb-3 text-red-800"><strong>*</strong> Hidden Images. If you miss a Bedtime Reminder, that is, you forget to review your daily practice on a given day, you will be able to continue your practices beyond the 8-week period to complete the unveiling of the images.</p>
           </div>
           <div className="bg-[#cac0b0] h-[42px] col-span-6 lg:hidden"></div>
           <div className="col-span-6 lg:col-span-3 font-semibold text-[19px]">
