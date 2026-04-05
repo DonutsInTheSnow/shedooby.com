@@ -17,7 +17,7 @@ export default function Lashtips() {
             <p className="pb-3">Mine? I&apos;ve got several: “Hey Lennon, Taylor Swift, ShooShoo, ...McFly.”</p>
             <p className="pb-3">Gen X knows that reference. I used to see a future full of promise. Now I fight to avoid ending up soft and aimless. “Hey McFly” stops me cold. It&apos;s sharp. It&apos;s private. It works.</p>
             <p className="pb-3">Your lash follows that trigger. A command. A task. A truth. Tweak it for the day. Adjust it to your mission. If you&apos;re ducking a hard conversation, write a lash that forces your mouth to move. If you&apos;re procrastinating on a problem, make the lash push you to engage.</p>
-            <p className="p-3 bg-gray-100 text-[#a1211f] font-mono">Hey ShooShoo. Do a round of weight reps and 100 sit ups.</p>
+            <p className="p-3 bg-gray-100 text-[#a1211f] font-mono">Hey ShooShoo. Do 25 weight reps and 50 sit ups.</p>
             <p className="py-3">ShooShoo was my great grandmother, who cried through life, helpless and numbed by drink. If you must cry, cry while doing push-ups. Do not drink. Alcohol is a depressant. Would you take a laxative when you have diarrhea?</p>
             <p>Still angry? Good. Use it. Anger is rocket fuel. Screenshot the insult. Use their words for your lash. If it stings, it&apos;s got power. Aim it at your weakness. Fire for effect.</p>
           </div>
@@ -37,7 +37,7 @@ export default function Lashtips() {
             <div className="py-7">
               <Image src="/images/toddlerMan.jpg" alt="ToddlerMan Lennon at 40." className="mx-auto" width="200" height="250" />
             </div>
-              <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Imagine you&apos;re an immigrant. This is your chance to reinvent yourself. Be punctual, reliable, competent. <span className="text-black text-medium">(I use this one often for the blue collar job I currently have to supplement my income.)</span></p>
+              <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Imagine you&apos;re an immigrant. This is your chance to reinvent yourself. Be punctual, reliable, competent. <span className="text-black text-medium">(I use this one often for the factory job I currently have.)</span></p>
               <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Name three things you accomplished today. <span className="text-black text-medium">(Hold yourself accountable.)</span></p>
           </div>
           <div className="bg-[#cac0b0] h-[42px] col-span-6 lg:hidden"></div>
@@ -53,7 +53,7 @@ export default function Lashtips() {
               <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Try and fail, no shame. Fail to try, no game. Get in the game. <span className="text-black text-medium">(Playing the game is a better teacher than being a spectator.)</span></p>
               <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Passivity now leads to aggression later. Don&apos;t be passive. Say what you honestly think. Be assertive. <span className="text-black text-medium">(Learning to deliver honesty with diplomacy is a skill.)</span></p>
               <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Hey Peter Procrastinator. Do what you want to do least, first.<span className="text-black text-medium">(Especially fun when Siri voice is set to Indian male.)</span></p>
-              <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">If it&apos;s gotta get done. Begin. It will be completed faster than the time you spent avoiding it.</p>
+              <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Where are you at with your MISSION GOALS? What have you accomplished so far? What&apos;s left?<span className="text-black text-medium"> (Keep track of your progress. Adjust your daily practice if needed.)</span></p>
             </div>
           </div>
         </div>

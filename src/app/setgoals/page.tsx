@@ -14,7 +14,7 @@ export default function Lashtips() {
             <p className="pb-3">Saying no to social media and alcohol is a real test of will power. While this alone proves you&apos;ve got mental strength, setting 3 attainable goals involving daily practice over Shedooby&apos;s 8-week duration delivers results you can build upon.</p>
             <p className="pb-3"><u>Name your goals.</u> A brief name that captures the essence of what you want to achieve. It should be specific, actionable, and meaningful to you.</p>
             <p className="pb-3"><u>Define your daily practice.</u> What are you going to do every day for 8 weeks? It must be something you can do consistently, and it must be tied to your goals. Assign a fixed amount of time daily. Even 15 minutes per day adds up over 8 weeks.</p>
-            <p className="pb-3"><u>Declare a specific reward</u> you will give yourself upon achieving each goal. Perhaps you have a home office and you could use a desk chair – Professional. A set of high quality, custom made pics and a new set of strings for your guitar – Personal (hobby). A new wristband for your watch or new clothes – Physical Fitness.</p>
+            <p className="pb-3"><u>Declare a specific reward</u> you will give yourself upon achieving each goal. A new desk chair for your home office – Professional. A new case for your guitar – Personal (hobby). New running shoes – Physical Fitness.</p>
           </div>
         </div>
       </section>
