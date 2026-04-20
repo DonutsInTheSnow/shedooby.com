@@ -47,7 +47,7 @@ export default function Lashtips() {
                 <Image src="/images/cryBully.webp" alt="Taylor RichHudson Swift cry bullying." className="mx-auto" width="300" height="300" />
               </div>
               <p className="p-3 bg-gray-100 text-[#a1211f] font-mono">You can cry like Taylor Swift or you can drop and give me 50 pushups. <span className="text-black text-medium">(Depression.)</span></p>
-              <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Take 10 tactical breaths. Do a round of yoga. Read 10 pages. Repeat. <span className="text-black text-medium">(Anxiety.)</span></p>
+              <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Take 10 tactical breaths. Do a round of yoga. Read 10 pages. Repeat. <span className="text-black text-medium">(Anxiety. Tactical breathing is breathe-in, hold, breathe-out, hold, each for a count of 4. If you don&apos;t know any yoga stretches learn a few. Read something, preferably related to your business, profession or hobby.)</span></p>
               <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Make your bed. Dress appropriately. Stand up straight. Live within your means. <span className="text-black text-medium">(Self-Respect.)</span></p>
               <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Be punctual. Punctuality respects others&apos; time. <span className="text-black text-medium">(Make it a habit. You won&apos;t regret it.)</span></p>
               <p className="p-3 my-4 bg-gray-100 text-[#a1211f] font-mono">Try and fail, no shame. Fail to try, no game. Get in the game. <span className="text-black text-medium">(Playing the game is a better teacher than being a spectator.)</span></p>

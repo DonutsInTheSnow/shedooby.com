@@ -40,7 +40,7 @@ export default function Header() {
           <Link href="/blog" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Blog</Link>
           <Link href="/setgoals" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Goals</Link>
           <Link href="/lashtips" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Lash Tips</Link>
-          <Link href="/privacypolicy" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Privacy</Link>
+          <Link href="/merch" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Merch</Link>
           <Link href="/support" className="hover:underline text-base hover:text-[#a1211f] active:text-[#a1211f] focus:text-[#a1211f]">Support</Link>
         </div>
       </nav>
@@ -60,8 +60,8 @@ export default function Header() {
             <Link href="/lashtips" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
               Lash Tips
             </Link>
-            <Link href="/privacypolicy" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
-              Privacy
+            <Link href="/merch" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
+              Merch
             </Link>
             <Link href="/support" onClick={toggleMenu} className="text-2xl active:text-[#a1211f] focus:text-[#a1211f] focus:underline focus:underline-offset-4 transition-colors duration-300 py-1">
               Support
