@@ -41,7 +41,7 @@ export default function Merch() {
             </div>
           </div>
 
-          <div className="lg:pt-8">
+          <div className="lg:pt-8 p-4">
             <h2 className="font-inter text-3xl font-semibold text-black mb-2">
               Discipline Wins Inner Wars T-Shirt
             </h2>
